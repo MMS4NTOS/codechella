@@ -53,6 +53,7 @@ body{
     font-family: var(--fonte-raleway);
     color: var(--cor-branca);
     font-weight: 700;
+    text-decoration: none;
     font-size: 20px;
     line-height: 50px;
     position: fixed;
@@ -66,6 +67,10 @@ body{
     flex-direction: column;
     transition: ease-in-out 0.8s;
     z-index: 1;
+}
+
+.menu__a {
+    text-decoration: none;
 }
 
 .cabecalho__menu-appear {
@@ -109,9 +114,13 @@ body{
     gap: 24px;
 }
 
-.boas-vindas {
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__img {
     width: 100vw;
-    
 }
 
 .descricao__evento {
@@ -121,7 +130,7 @@ body{
     justify-content: center;
 }
 
-.descricao__dias {
+.main__titulo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
